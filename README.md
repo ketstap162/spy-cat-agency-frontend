@@ -21,23 +21,23 @@ This frontend is designed to work with the **Spy Cat Agency backend**, which can
 
 Follow these steps to get the application up and running on your local machine.
 
-1.  **Clone the repository**
+1) **Clone the repository**
     ```bash
     git clone <your-repository-url>
     cd <your-repository-folder>
     ```
 
-2.  **Install dependencies**
+2) **Install dependencies**  
     To install all the necessary packages and dependencies, run the following command in your terminal:
     ```bash
     npm install
     ```
     This command reads the `package.json` file and installs everything the project needs to run.
 
-4. **Copy env file**
-    Copy `.env.sample` to `.env`.
+3) **Fill the env file**  
+    Copy the contents of `.env.sample` file to new `.env` file 
 
-3.  **Run the application**
+4) **Run the application**  
     Once the dependencies are installed, you can start the development server with this command:
     ```bash
     npm run dev
